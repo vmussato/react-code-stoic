@@ -9,6 +9,7 @@ import FunctionEvent from './components/FunctionEvent';
 import ClassEvent from './components/ClassEvent';
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
+import Product from './components/Product';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Counter />
       <FunctionalCounter />
       <ConditionalComponent />
+      <Product />
     </div>
   );
 }
