@@ -10,17 +10,13 @@ import ClassEvent from './components/ClassEvent';
 import FunctionalCounter from './components/FunctionalCounter';
 import ConditionalComponent from './components/ConditionalComponent';
 import Product from './components/Product';
+import Form from './components/Form';
 
 
 function App() {
   return (
     <div className="App">
-      <FunctionEvent />
-      <ClassEvent />
-      <Counter />
-      <FunctionalCounter />
-      <ConditionalComponent />
-      <Product />
+      <Form />
     </div>
   );
 }
